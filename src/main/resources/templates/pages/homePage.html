@@ -2,34 +2,19 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <th:block th:replace="fragments/header :: site-header('Home')"/>
 <body>
-<!--<th:block th:replace="fragments/navbar :: top-nav"/>-->
-
-<div class="center">
-<video autoplay muted loop id="myVideo">
-    <source src="video\FORTNITE_VIDEO_2.mp4" type="video/mp4"/>
-</video>
-
-    <div class="content container">
-        <div class="row">
-            <div class="col-sm">
-                <button id="myBtn" onclick="myFunction()">Pause</button>
-            </div>
-            <div class="col-sm">
-                <h6>Victor J Peña | Software Developer</h6>
-
-            </div>
-            <div class="col-sm">
-                <h6>Site Under Construction :)</h6>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <th:block th:replace="fragments/navbar :: top-nav"/>
         </div>
     </div>
-</div>
-
-
-
-
-    <!--     Use a button to pause/play the video with JavaScript -->
+    <div class="row">
+        <div class="col">
+        <th:block th:replace="fragments/video :: site-video"/>
+        </div>
+    </div>
 </div>
 <th:block th:replace="fragments/footer :: site-footer"/>
 </body>
 </html>
+

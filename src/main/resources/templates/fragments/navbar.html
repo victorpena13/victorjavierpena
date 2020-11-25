@@ -5,7 +5,7 @@
     <!--    <div class="container">-->
     <!--Brand / Logo-->
     <a class="navbar-brand" href="/">
-        <img th:src="@{/image/largerLogo.png}" height="35" width="35"/>
+        <img th:src="@{/image/vicncel.jpeg}" height="35" width="35"/>
     </a>
     <!--            Collapse-->
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -18,17 +18,15 @@
         <!--                Left-->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/" style="font-size:18px;">Home
-                    <span class="sr-only">(current)</span>
-                </a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/forums" style="font-size:18px;">Resume<span
-                        class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/forums">Resume</a>
             </li>
-            <li class="nav-item" sec:authorize="isAuthenticated()">
-                <a class="nav-link" href="/profile" style="font-size:18px;">Projects<span
-                        class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="/forums">Projects</a>
+            <li class="nav-item">
+                <a class="nav-link" href="/forums">Contact</a>
             </li>
         </ul>
     </div>
