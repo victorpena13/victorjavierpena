@@ -20,4 +20,10 @@ public class SiteController {
         public String project() {
             return "pages/projects";
         }
+
+        @GetMapping(value={"/contact"})
+        public String contact() {
+            return "pages/contact" +
+                    "";
+        }
 }
