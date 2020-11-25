@@ -33,3 +33,22 @@
     color: black;
 }
 
+#marginTop {
+    margin-top: 75px;
+}
+
+/*seperate*/
+
+
+#titleFav, .dropdown-toggle, .card-body, .list-group-item {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    background: #F1F3F4;
+}
+.textSize {
+    font-size: 20px;
+}
