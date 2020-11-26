@@ -6,7 +6,11 @@
     min-height: 100%;
 }
 
-/* Add some content at the bottom of the video/page */
+#myGif {
+    width: 100%;
+}
+
+ /*Add some content at the bottom of the video/page */
 .content {
     position: fixed;
     bottom: 0;
@@ -23,7 +27,6 @@
     padding: 10px;
     border: none;
     background: #000;
-
     color: #fff;
     cursor: pointer;
 }
@@ -39,16 +42,5 @@
 
 /*seperate*/
 
+/*navbar*/
 
-#titleFav, .dropdown-toggle, .card-body, .list-group-item {
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-}
-
-.body {
-    background: #F1F3F4;
-}
-.textSize {
-    font-size: 20px;
-}

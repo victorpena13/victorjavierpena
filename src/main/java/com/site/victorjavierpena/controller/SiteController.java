@@ -23,7 +23,6 @@ public class SiteController {
 
         @GetMapping(value={"/contact"})
         public String contact() {
-            return "pages/contact" +
-                    "";
+            return "pages/contact";
         }
 }
