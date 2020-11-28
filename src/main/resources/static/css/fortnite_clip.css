@@ -1,47 +1,48 @@
-
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#myGif {
-    width: 100%;
-}
-
- /*Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-
 #marginTop {
     margin-top: 75px;
 }
 
-/*seperate*/
 
-/*navbar*/
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex-item {
+    float: none;
+    margin: 10px;
+}
+
+
+.view {
+    background-color: #F1F3F4;
+
+    text-align: center;
+}
+
+.flex-item {
+    margin-top: 10%;
+    box-sizing: border-box;
+
+    background-color: white;
+    display: inline-block;
+    width: 20rem;
+    height: 30rem;
+}
+
+
+.flex-item + .flex-item {
+    margin-top: 10%;
+
+    /*margin-left: 5%;*/
+}
+
+#cardOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*.full-page-intro {*/
+/*    height:60rem;*/
+/*    width:100%;*/
+/*}*/
