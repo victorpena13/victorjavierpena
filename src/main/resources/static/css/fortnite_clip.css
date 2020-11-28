@@ -3,15 +3,8 @@
 }
 
 
-
-
 html {
     scroll-behavior: smooth;
-}
-
-.flex-item {
-    float: none;
-    margin: 10px;
 }
 
 
@@ -21,28 +14,3 @@ html {
     text-align: center;
 }
 
-.flex-item {
-    margin-top: 10%;
-    box-sizing: border-box;
-
-    background-color: white;
-    display: inline-block;
-    width: 20rem;
-    height: 30rem;
-}
-
-
-.flex-item + .flex-item {
-    margin-top: 10%;
-
-    /*margin-left: 5%;*/
-}
-
-#cardOne {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-/*.full-page-intro {*/
-/*    height:60rem;*/
-/*    width:100%;*/
-/*}*/
