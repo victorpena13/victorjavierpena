@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml"
+      xmlns:c="http://java.sun.com/xml/ns/javaee">
 
 <th:block th:replace="fragments/header :: site-header('Home')"/>
 
@@ -10,48 +11,27 @@
 <div id="marginTop"></div>
 
 
+<img th:src="@{/image/San-Antonio.jpg}" class id="myVideo"/>
+
 <div class="container">
     <div class="row">
         <div class="col-sm">
-            <h1>Victor Peña</h1>
+            One of three columns
         </div>
         <div class="col-sm">
-            <img  th:src="@{image/vicncel.jpeg}" class="img-thumbnail"/>
+            <img  th:src="@{image/vicncel.jpeg}" class="img-thumbnail center"/>
         </div>
         <div class="col-sm">
 
         </div>
     </div>
-</div>
-
-
-
-<div class="container body" style="margin-bottom: 0;">
-    <div class="container headerInfo" style="margin-bottom: 0;">
-<!--        <div class="row">-->
-<!--            <div class="col-lg-12">-->
-
-<!--            </div>-->
-<!--        </div>-->
-        <div class="row">
-            <div class="col col-lg-2">
-                <img  th:src="@{image/vicncel.jpeg}" class="img-thumbnail"/>
-                <br/>
-            </div>
-            <div class="col-lg-6">
-                <h1>Victor Pena</h1>
-                <h2>Software Developer</h2>
-            </div>
-            <div class="col">
-                <h1><strong>Contact:</strong></h1>
-                <h2>956 472 9753</h2>
-
-            </div>
+    <div class="row">
+        <div class="col">
+            <img th:src="@{/gif/fortnite.gif}" width="100%" class="img-thumbnail"/>
         </div>
     </div>
-</div>
 
-<img th:src="@{/gif/fortnite.gif}" width="100%"/>
+
 
 <th:block th:replace="fragments/scripts :: site-scripts"/>
 </body>
