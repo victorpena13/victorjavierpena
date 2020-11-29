@@ -14,3 +14,19 @@ html {
     text-align: center;
 }
 
+body {
+    background-color: #202020;
+
+}
+
+#containerTwo {
+    background-color: #202020;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+#victorPena {
+    display: block;
+    margin: auto;
+    width: 25%;
+}

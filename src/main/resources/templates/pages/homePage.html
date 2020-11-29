@@ -1,8 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+
 <th:block th:replace="fragments/header :: site-header('Victor J Pena')"/>
+
 <body>
+
 <th:block th:replace="fragments/navbar :: top-nav"/>
+
 <div style="background-image: url('/image/San-Antonio.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
     <!-- Mask & flexbox options-->
     <div class="d-flex justify-content-center align-items-center">
@@ -32,8 +37,17 @@
         </div>
     </div>
 </div>
-<img th:src="@{/gif/fortnite.gif}" width="100%"/>
+
+<div class="container" id="containerTwo">
+
+    <img th:src="@{/image/victor_peña_professional.JPG}" alt="Victor Javier Peña" id="victorPena">
+
+</div>
+
+<img th:src="@{/gif/fortnite.gif}" width="100%" alt="fortnite gif"/>
 
 <th:block th:replace="fragments/scripts :: site-scripts"/>
+
 </body>
+
 </html>
