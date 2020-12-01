@@ -9,24 +9,103 @@ html {
 
 
 .view {
-    background-color: #F1F3F4;
 
     text-align: center;
 }
 
 body {
-    background-color: #202020;
+    margin-left: 0;
+    margin-right:0;
+
+}
+#containerOne {
+    /*text-align:center;*/
 
 }
 
 #containerTwo {
-    background-color: #202020;
-    margin-bottom:10%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    text-align:center;
+}
+#containerThree {
     text-align:center;
 }
 
 #victorPena {
     display: block;
     margin: auto;
-    width: 25%;
+    width: 75%;
+}
+
+.wide-div {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+
+div .imagec {
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+div .imaged {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div .imagec2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-item {
+    float: none;
+    margin: 10px;
+}
+
+.flex-item {
+    margin-top: 10%;
+    box-sizing: border-box;
+
+    background-color: white;
+    display: inline-block;
+    width: 20rem;
+    height: 30rem;
+}
+
+.flex-item + .flex-item {
+    margin-top: 10%;
+
+    /*margin-left: 5%;*/
+}
+
+#cardOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#marginTop {
+    margin-top: 69px;
+}
+
+#mainHeading {
+    text-align: center;
+}
+.alignLeft {
+    text-align: left;
+}
+.alignCenter {
+    text-align: center;
+}
+.colorRed {
+    color: #E62E52;
+    font-style: arial;
+    font-weight: bolder;
 }
