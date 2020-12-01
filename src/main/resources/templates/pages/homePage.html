@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
-<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml"
-	  xmlns:height="http://www.w3.org/1999/xhtml">
-
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<span id="vp"></span>
 <th:block th:replace="fragments/header :: site-header('Victor J Pena')"/>
 
 <body>
@@ -11,43 +10,10 @@
 
 <th:block th:replace="fragments/containerOne :: site-containerOne"/>
 
-<div >
-
-</div>
-
-<span id="profileAnchor"></span>
-<div class="container" id="containerTwo" style="height:47rem;display:block;margin:auto;">
-	<div style="padding-top:10rem">
-		<h1 class="colorRed">Profile</h1>
-		<h3 class="alignCenter">I am a Full Stack Software Developer</h3>
-		<hr/>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-
-					<p class="mb-0"><strong>About Me</strong></p>
-					<br/>
-					<p class="mb-0 alignLeft">I am a full stack software developer with over 1 year experience. I enjoying advancing my knowledge </p>
-				</div>
-				<div class="col-sm">
-					<br/>
-					<img th:src="@{/image/victor_peña.JPG}" class="img-thumbnail" alt="Victor Peña" id="victorPena">
-				</div>
-				<div class="col-sm">
-					<p class="mb-0"><strong>Details</strong></p>
-					<br/>
-					<p class="mb-0 alignLeft"><strong>Name:</strong> Victor Peña</p>
-					<p class="mb-0 alignLeft"><strong>Age:</strong> 28</p>
-					<p class="mb-0 alignLeft"><strong>Location:</strong> San-Antonio</p>
-					<p class="mb-0 alignLeft">(Willing to relocate)</p>
-	</div>
+<th:block th:replace="fragments/profile :: site-profile"/>
 
 
 
-			</div>
-        </div>
-    </div>
-</div>
 
 
 <img th:src="@{/gif/fortnite.gif}" width="100%" alt="fortnite gif"/>
