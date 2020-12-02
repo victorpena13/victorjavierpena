@@ -13,24 +13,10 @@ html {
     text-align: center;
 }
 
-body {
-    margin-left: 0;
-    margin-right:0;
-
-}
-#containerOne {
-    /*text-align:center;*/
-
-}
-
-#containerTwo {
-    /*margin-top: 10.5rem;*/
-    /*margin-bottom:10.5rem;*/
+#containerProfile {
     text-align:center;
 }
-#containerThree {
-    text-align:center;
-}
+
 
 #victorPena {
     display: block;
@@ -84,13 +70,9 @@ div .imagec2 {
 .flex-item + .flex-item {
     margin-top: 10%;
 
-    /*margin-left: 5%;*/
 }
 
-#cardOne {
-    padding-right: 10px;
-    padding-left: 10px;
-}
+
 #marginTop {
     margin-top: 69px;
 }
@@ -106,6 +88,10 @@ div .imagec2 {
 }
 .colorRed {
     color: #E62E52;
-    font-style: arial;
     font-weight: bolder;
+}
+
+#containerExperience {
+    background-color:#AECCF3;
+    text-align:center;
 }
