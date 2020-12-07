@@ -98,3 +98,12 @@ div .imagec2 {
 #containerSkills {
     text-align:center;
 }
+
+#containerProjects {
+    background-color:#AECCF3;
+}
+
+.padding10 {
+    padding-top: 10rem;
+    padding-bottom: 11rem;
+}

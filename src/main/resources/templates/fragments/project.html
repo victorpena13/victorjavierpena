@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="site-projects">
+    <span id="projects"></span>
+    <div class="wide-div" id="containerProjects">
+        <div style="margin-left: 30px;margin-right: 30px;" class="padding10">
+            <h1 class="alignCenter colorRed">Projects</h1>
+            <div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img th:src="@{/image/weather.jpg}" class="card-img-top" alt="weather_image_icons">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Map</h5>
+                            <p class="card-text">Implemented the DarkSky API and MapBox API to create a 3 day weather forecast.  Based on the users desired location.</p>
+                            <a href="https://weather-map-darksky-mapbox.glitch.me/" target="_blank"><p class="card-text"><small class="text-muted">View Project</small></p></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img th:src="@{/image/adlister.png}" class="card-img-top" alt="ecommerce_icons">
+                        <div class="card-body">
+                            <h5 class="card-title">Adlister</h5>
+                            <p class="card-text">Developed a site that has basic functionality as Craigslist in Java EE (Servlets, JSP)</p>
+                            <p class="card-text"><small class="text-muted">View Project</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img th:src="@{/image/chatApp.png}" class="card-img-top" alt="chat_icons">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">ChatApp uses STOMP (Streaming Text Oriented Messaging Protocol) a branch of Websocket to establish a communication protocol that allows two way messaging between client and server.</p>
+                            <p class="card-text"><small class="text-muted">View Project</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>
