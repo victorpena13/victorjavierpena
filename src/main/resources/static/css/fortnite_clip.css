@@ -95,15 +95,32 @@ div .imagec2 {
     background-color:#AECCF3;
     text-align:center;
 }
+
+#divExperience {
+    padding-top:5rem;
+    padding-bottom:4rem;
+}
 #containerSkills {
     text-align:center;
+}
+#divSkills {
+    padding-top:5rem;
+    padding-bottom:4rem;
 }
 
 #containerProjects {
     background-color:#AECCF3;
 }
+#divProjects {
+    padding-top:5rem;
+    padding-bottom:4rem;
+}
 
 .padding10 {
     padding-top: 10rem;
     padding-bottom: 11rem;
+}
+
+.projectImageHeight {
+    height:159px;
 }
