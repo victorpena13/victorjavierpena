@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <th:block th:fragment="site-contact">
+    <div class="wide-div" style="background-color: rgba(0,0,0,.75);"></div>
     <span id="contact"></span>
-    <div class="wide-div" id="containerContact" style="">
-        <div style="">
-            <h1 class="alignCenter colorRed">Contact</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
-                    </div>
-                </div>
+    <h1 class="colorRed alignCenter">Contact</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <a class="nav-link" href="https://github.com/victorpena13" target="_blank">
+                    <img th:src="@{image/github_mono.png}" class="centerImage" alt="github_logo"/>
+                </a>            </div>
+            <div class="col-sm">
+                <a class="nav-link" href="tel:9564729753" target="_blank">
+                    <img th:src="@{image/phone.png}"  class="centerImage" alt="phone_logo"/>
+                </a>            </div>
+            <div class="col-sm">
+                <a class="nav-link" href="mailto:victor.pena1392@Gmail.com" target="_blank">
+                    <img th:src="@{image/gmail.png}" class="centerImage" alt="gmail_logo"/>
+                </a>
             </div>
         </div>
     </div>
 </th:block>
+</html>
