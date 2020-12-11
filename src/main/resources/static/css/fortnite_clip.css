@@ -14,7 +14,6 @@ html {
 
 #containerProfile {
     text-align:center;
-    background-color: #d3d3d3;
 }
 
 
@@ -60,7 +59,6 @@ div .imagec2 {
 .flex-item {
     margin-top: 10%;
     box-sizing: border-box;
-
     background-color: white;
     display: inline-block;
     width: 20rem;
@@ -87,8 +85,9 @@ div .imagec2 {
     text-align: center;
 }
 .colorRed {
-    color: #ECE923;
+    color: rgb(245,219,96);
     font-weight: bolder;
+    font-size: 40px;
 }
 
 #containerExperience {
@@ -98,15 +97,14 @@ div .imagec2 {
 
 #divExperience {
     padding-top:5rem;
-    padding-bottom:4rem;
+    padding-bottom:5rem;
 }
 #containerSkills {
     text-align:center;
-    background-color: #d3d3d3;
 }
 #divSkills {
     padding-top:5rem;
-    padding-bottom:4rem;
+    padding-bottom:5rem;
 }
 
 #containerProjects {
@@ -114,7 +112,7 @@ div .imagec2 {
 }
 #divProjects {
     padding-top:5rem;
-    padding-bottom:4rem;
+    padding-bottom:5rem;
 }
 
 .divREMspacing {
@@ -137,4 +135,15 @@ div .imagec2 {
     width:20%;
 }
 
+.blackTxt {
+    color: black;
+}
+
+.fontSize50 {
+    font-size: 50px;
+}
+
+.fontSize24 {
+    font-size: 24px;
+}
 
