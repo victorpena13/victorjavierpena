@@ -14,7 +14,7 @@ html {
 
 #containerProfile {
     text-align:center;
-    background-color:rgba(0,0,0,.75);
+    background-color: #d3d3d3;
 }
 
 
@@ -102,8 +102,7 @@ div .imagec2 {
 }
 #containerSkills {
     text-align:center;
-    background-color:rgba(0,0,0,.75);
-
+    background-color: #d3d3d3;
 }
 #divSkills {
     padding-top:5rem;
@@ -138,6 +137,4 @@ div .imagec2 {
     width:20%;
 }
 
-.whiteText {
-    color:white;
-}
+
