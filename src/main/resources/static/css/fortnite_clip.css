@@ -12,9 +12,7 @@ html {
     text-align: center;
 }
 
-#containerProfile {
-    text-align:center;
-}
+
 
 
 #victorPena {
@@ -95,17 +93,6 @@ div .imagec2 {
     text-align:center;
 }
 
-#divExperience {
-    padding-top:5rem;
-    padding-bottom:5rem;
-}
-#containerSkills {
-    text-align:center;
-}
-#divSkills {
-    padding-top:5rem;
-    padding-bottom:5rem;
-}
 
 #containerProjects {
     background-color:rgb(168,169,165);
@@ -115,14 +102,10 @@ div .imagec2 {
     padding-bottom:5rem;
 }
 
-.divREMspacing {
-    padding-top:5rem;
-    padding-bottom:5rem;
-}
 
 .padding10 {
-    padding-top: 10rem;
-    padding-bottom: 11rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .projectImageHeight {
