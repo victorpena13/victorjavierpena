@@ -2,6 +2,8 @@
     margin-top: 75px;
 }
 
+body {
+}
 
 html {
     scroll-behavior: smooth;
@@ -88,19 +90,12 @@ div .imagec2 {
     font-size: 40px;
 }
 
-#containerExperience {
-    background-color:rgb(168,169,165);
-    text-align:center;
-}
 
 
-#containerProjects {
+.lightGrayBckGrd{
     background-color:rgb(168,169,165);
 }
-#divProjects {
-    padding-top:5rem;
-    padding-bottom:5rem;
-}
+
 
 
 .padding10 {

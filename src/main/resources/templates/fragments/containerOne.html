@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <th:block th:fragment="site-containerOne">
-
-    <div style="background-image: url('/image/San-Antonio.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
-        <!-- Mask & flexbox options-->
-        <div class="d-flex justify-content-center align-items-center">
-            <!-- Content -->
-            <div class="container" style="margin-top: 10%;">
-                <div>
-                    <h1 class="text-white" id="mainHeading">
-                        <br/>
-                        <img th:src="@{/image/victor_pena_logo.png}" style="width:50%;"/>
-                        <br/>
-                        <strong>Interactive Resume</strong>
-                    </h1>
-
-                    <!--Grid column-->
-                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 mb-4 mx-auto">
-                        <div style="height:80rem; width: 25rem;">
-                            <!--                        <img th:src="@{/image/HeadLogo.png}" style="height:100%; width: 100%; align-content: end"/>-->
+        <div style="background-image: url('/image/San-Antonio.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+            <!-- Mask & flexbox options-->
+            <div class="d-flex justify-content-center align-items-center">
+                <!-- Content -->
+                <div class="container" style="margin-top: 10%;">
+                    <div>
+                        <h1 class="text-white" id="mainHeading">
+                            <img th:src="@{/image/victor_pena_logo.png}" style="width:50%; padding-top:5px;"/>
+                            <br/>
+                            <strong>Interactive Resume</strong>
+                        </h1>
+                        <!--Grid column-->
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 mb-4 mx-auto">
+                            <div style="height:55rem; width: 25rem;">
+                                <!--                        <img th:src="@{/image/HeadLogo.png}" style="height:100%; width: 100%; align-content: end"/>-->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </th:block>
+</html>

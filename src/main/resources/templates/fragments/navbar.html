@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <th:block th:fragment="top-nav">
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar justify-content-between"
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar "
      style="background-color: rgba(99,228,204,.95);">
     <!--    <div class="container">-->
     <!--Brand / Logo-->
-    <a class="navbar-brand text-white" href="#vp">
-        <img th:src="@{/image/victor_pena_logo.png}" style="width: 18%;"/>
-    </a>
 
-    <!--            Collapse-->
+<!--    <a class="navbar-brand text-white" href="#vp">-->
+        <img th:src="@{/image/call_of_duty.png}" style="width: 2%;"/>
+<!--    </a>-->
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+
+                <a class="navbar-brand text-white" href="#vp">
+        <img th:src="@{/image/call_of_duty.png}" style="width: 7%;"/>
+    </a>
+        </span>
     </button>
 
     <!--            Links-->
